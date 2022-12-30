@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Yasmin Salehi</title>
+  <meta name="description" content="Personal website powered by Jekyll">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+  <div id="landing">
+  <div class="landing-title">
+    <h1>Hi, I&#39;m
+      <span class="highlight-title">YasminSalehi</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["an ML Researcher @ McGill University", "scroll down for more."]'
+      >
+      </span>
+    </h1>
+    <div class="landing-icons">
+      
+        <a class="social-link email" aria-label="My E-Mail" href="mailto:yasmin.salehi@mail.mcgill.ca">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope""></use>
+            </svg>
+          </div>
+          <span class="label">E-Mail</span>
+        </a>
+      
+
+      
+        <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/YasminSalehi"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub</span>
+        </a>
+      
+
+      
+
+      
+
+      
+
+      
+        <a class="social-link twitter" aria-label="My Twitter" target="_blank"
+          rel="noreferrer" href="https://twitter.com/SalehiYasmin"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#twitter"></use>
+            </svg>
+          </div>
+          <span class="label">Twitter</span>
+        </a>
+      
+      
+    </div>
+    </div>    
+  </div>
+</div>
+
+  <div class="layout">
+    
+      <section class="card neumorphism-card-big">
+        <div>
+  <h1 class="title">About Me</h1>
+
+  <img
+    class="my_image"
+    src="assets/IMG_7347.jpeg"
+    alt="Yasmin Salehi"
+    style="float: right; margin-left: 3em; vertical-align: middle"
+  />
+  <p class="description" data-aos="fade-down">Hello and welcome to my personal website! My name is Yasmin, and I am currently working as a machine learning researcher at McGill University under the supervision of Prof. Giannacopoulos. <br /><br /> My current research involves developing novel physics-informed machine learning algorithms. Generally, my interests lie in graph representation learning, natural language processing, physics-informed machine learning (ML), and application of ML in healthcare. I have recently published my work as the first author at Neural Information Processing Systems (NeurIPS2022) and Empirical Methods in Natural Language Processing (EMNLP2020) conferences. <br /> <br /> I have previously earned a bachelor&#39;s and master&#39;s degrees in Electrical and Computer Engineering alongside two minors in Biomedical and Software Engineering from McGill University. <br /><br /> <br /> <br /></p>
+</div>
+
+<style>
+  .my_image {
+    max-width: 28%;
+    /* height: auto; */
+    /* object-fit: contain; */
+    border-radius: 10%;
+    position: relative;
+  }
+</style>
+
+<!-- style="float: right; margin-left: 4em; vertical-align: middle" -->
+<!-- <img src="assets/IMG_7347.jpeg" alt="Yasmin Salehi" />
+<p class="description" data-aos="fade-down">Hello and welcome to my personal website! My name is Yasmin, and I am currently working as a machine learning researcher at McGill University under the supervision of Prof. Giannacopoulos. <br /><br /> My current research involves developing novel physics-informed machine learning algorithms. Generally, my interests lie in graph representation learning, natural language processing, physics-informed machine learning (ML), and application of ML in healthcare. I have recently published my work as the first author at Neural Information Processing Systems (NeurIPS2022) and Empirical Methods in Natural Language Processing (EMNLP2020) conferences. <br /> <br /> I have previously earned a bachelor&#39;s and master&#39;s degrees in Electrical and Computer Engineering alongside two minors in Biomedical and Software Engineering from McGill University. <br /><br /> <br /> <br /></p> -->
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills</h1>
+
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language"
+    >Languages</label
+  >
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework"
+    >Frameworks</label
+  >
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+
+  
+  <div
+    skill-type="language"
+    skill-weight="5"
+    data-aos="zoom-in"
+  >
+    Python
+  </div>
+  
+  <div
+    skill-type="language"
+    skill-weight="4"
+    data-aos="zoom-in"
+  >
+    Java
+  </div>
+  
+  <div
+    skill-type="language"
+    skill-weight="4"
+    data-aos="zoom-in"
+  >
+    Matlab
+  </div>
+  
+  <div
+    skill-type="language"
+    skill-weight="2"
+    data-aos="zoom-in"
+  >
+    C
+  </div>
+  
+  <div
+    skill-type="language"
+    skill-weight="3"
+    data-aos="zoom-in"
+  >
+    SQL
+  </div>
+  
+  <div
+    skill-type="language"
+    skill-weight="2"
+    data-aos="zoom-in"
+  >
+    C#
+  </div>
+  
+  <div
+    skill-type="language"
+    skill-weight="1"
+    data-aos="zoom-in"
+  >
+    Assembly
+  </div>
+   
+  <div
+    skill-type="framework"
+    skill-weight="5"
+    data-aos="zoom-in"
+  >
+    PyTorch
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="5"
+    data-aos="zoom-in"
+  >
+    PyTorch Geometric
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="5"
+    data-aos="zoom-in"
+  >
+    NumPy
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="5"
+    data-aos="zoom-in"
+  >
+    Scikit-learn
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="4"
+    data-aos="zoom-in"
+  >
+    TensorFlow
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="4"
+    data-aos="zoom-in"
+  >
+    TensorBoard
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="4"
+    data-aos="zoom-in"
+  >
+    Pandas
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="3"
+    data-aos="zoom-in"
+  >
+    NetworkX
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="3"
+    data-aos="zoom-in"
+  >
+    NLTK
+  </div>
+  
+  <div
+    skill-type="framework"
+    skill-weight="3"
+    data-aos="zoom-in"
+  >
+    SeqIO
+  </div>
+   
+  <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
+    Git
+  </div>
+  
+  <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+    Bash
+  </div>
+  
+  <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+    Scrum
+  </div>
+  
+  <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
+    PyCharm
+  </div>
+  
+  <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
+    Google Colab
+  </div>
+  
+  <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+    Google Cloud
+  </div>
+  
+  <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+    BigQuery
+  </div>
+  
+  <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+    HuggingFace
+  </div>
+  
+  <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+    VS Code
+  </div>
+  
+  <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
+    CUDA
+  </div>
+  
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Education & Experience</h1>
+<!-- <p class="subtitle">
+  For more information, have a look at my
+  <a class="highlight-link" href="" target="_blank" rel="noreferrer">
+    curriculum vitae
+  </a>.
+</p> -->
+
+<div class="timeline-wrapper">
+  <ul class="timeline">
+      
+    <li>
+      <div class="direction-r">
+        <div class="flag-wrapper">
+          <span class="hexagon"></span>
+          <span class="flag neumorphism-button" data-aos="zoom-in-left">
+            <a href="https://www.mcgill.ca" target="_blank" rel="noreferrer">
+              <span>McGill University</span>
+            </a>
+          </span>
+          <span class="time-wrapper" data-aos="zoom-in-left">
+            <span class="time neumorphism-card">Jan 2022 - Present</span>
+          </span>
+        </div>
+        <div class="desc neumorphism-card" data-aos="zoom-in-left">
+          Research Assistant 
+          <div class="tag-wrapper">
+            
+            <span class="tag neumorphism-card">PyTorch</span>
+            
+            <span class="tag neumorphism-card">PyTorch Geometric</span>
+            
+            <span class="tag neumorphism-card">Research</span>
+            
+            <span class="tag neumorphism-card">Physics-Based Machine Learning</span>
+            
+          </div>
+          
+        </div>
+      </div>
+    </li>
+      
+    <li>
+      <div class="direction-l">
+        <div class="flag-wrapper">
+          <span class="hexagon"></span>
+          <span class="flag neumorphism-button" data-aos="zoom-in-right">
+            <a href="https://www.mcgill.ca" target="_blank" rel="noreferrer">
+              <span>McGill University</span>
+            </a>
+          </span>
+          <span class="time-wrapper" data-aos="zoom-in-right">
+            <span class="time neumorphism-card">Jun 2021 - Aug 2021</span>
+          </span>
+        </div>
+        <div class="desc neumorphism-card" data-aos="zoom-in-right">
+          Research Assistant 
+          <div class="tag-wrapper">
+            
+            <span class="tag neumorphism-card">PyTorch</span>
+            
+            <span class="tag neumorphism-card">PyTorch Geometric</span>
+            
+            <span class="tag neumorphism-card">Research</span>
+            
+            <span class="tag neumorphism-card">Physics-Based Machine Learning</span>
+            
+          </div>
+          
+        </div>
+      </div>
+    </li>
+        
+    <li>
+      <div class="direction-r">
+        <div class="flag-wrapper">
+          <span class="hexagon"></span>
+          <span class="flag neumorphism-button" data-aos="zoom-in-left">
+            <a href="https://www.mcgill.ca" target="_blank" rel="noreferrer">
+              <span>McGill University</span>
+            </a>
+          </span>
+          <span class="time-wrapper" data-aos="zoom-in-left">
+            <span class="time neumorphism-card">Sept 2018 - Apr 2021</span>
+          </span>
+        </div>
+        <div class="desc neumorphism-card" data-aos="zoom-in-left">
+          M.Eng. Electrical and Computer Engineering 
+        </div>
+      </div>
+    </li>
+      
+    <li>
+      <div class="direction-l">
+        <div class="flag-wrapper">
+          <span class="hexagon"></span>
+          <span class="flag neumorphism-button" data-aos="zoom-in-right">
+            <a href="https://www.mcgill.ca" target="_blank" rel="noreferrer">
+              <span>McGill University</span>
+            </a>
+          </span>
+          <span class="time-wrapper" data-aos="zoom-in-right">
+            <span class="time neumorphism-card">Sept 2012 - Apr 2018</span>
+          </span>
+        </div>
+        <div class="desc neumorphism-card" data-aos="zoom-in-right">
+          B.Eng. Electrical Engineering, Minor Software Engineering, Minor Biomedical Engineering 
+        </div>
+      </div>
+    </li>
+      
+  </ul>
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        
+<h1 class="title"><span>Publications</span></h1>
+<div class="projects-wrapper">
+  
+  <div class="project neumorphism-card" data-aos="zoom-in-down">
+    <div class="name-link-wrapper">
+      <h3>PhysGNN&#58; A Physics-Driven Graph Neural Network Based Model for Predicting Soft Tissue Deformation in Image-Guided Neurosurgery</h3>
+      <h3><strong>NeurIPS2022</strong></h3>
+    </div>
+    <div class="name-link-wrapper">
+      <h3>Yasmin Salehi, Dennis Giannacopoulos</h3>
+    </div>
+    
+    <div class="container">
+      <img src="assets/PhysGNN.png" alt="" />
+    </div>
+    
+    <p class="project-desc">TLDR: PhysGNN is a novel physics-driven graph neural network based model capable of accurately and efficiently approximating tissue deformation caused by applied forces by which 94-97% of errors are shown to be less than 1 mm&#8212;the precision in neurosurgery.</p>
+    
+    <a
+      class="highlight-link"
+      href="https://openreview.net/pdf?id=yZgxl3bgumu"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Publication
+    </a>
+       
+    <div class="tag-wrapper">
+      
+      <span class="tag neumorphism-card">Graph Neural Networks (GNNs)</span>
+      
+      <span class="tag neumorphism-card">Physics-based simulation</span>
+      
+      <span class="tag neumorphism-card">Finite Element Method (FEM)</span>
+      
+    </div>
+    
+  </div>
+  
+  <div class="project neumorphism-card" data-aos="zoom-in-down">
+    <div class="name-link-wrapper">
+      <h3>Structure Aware Negative Sampling (SANS) in Knowledge Graphs</h3>
+      <h3><strong>EMNLP 2020</strong></h3>
+    </div>
+    <div class="name-link-wrapper">
+      <h3>Kian Ahrabian*, Aarash Feizi*, Yasmin Salehi*, William Hamilton, Joey Bose</h3>
+    </div>
+    
+    <div class="container">
+      <img src="assets/SANS.png" alt="" />
+    </div>
+    
+    <p class="project-desc">TLDR: SANS is a novel negative sampling method which generates negative samples from the k-hop neighborhood of nodes. SANS was shown to be competitive with SOTA methods and outperform sophisticated Generative Adversarial Network approaches.</p>
+    
+    <a
+      class="highlight-link"
+      href="https://aclanthology.org/2020.emnlp-main.492.pdf"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Publication
+    </a>
+       
+    <div class="tag-wrapper">
+      
+      <span class="tag neumorphism-card">Negative Sampling</span>
+      
+      <span class="tag neumorphism-card">Knowledge Graphs</span>
+      
+    </div>
+    
+  </div>
+  
+</div>
+ 
+
+<style>
+  .container {
+    width: 500px;
+  }
+
+  /* Resize images */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  img {
+    border-radius: 0%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+</style>
+
+      </section>
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact</h1>
+<p class="subtitle"></p>
+
+<div class="contact-icons">
+  
+  <a class="social-link" aria-label="My E-Mail" href="mailto:yasmin.salehi@mail.mcgill.ca">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/YasminSalehi">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+  <a class="social-link twitter" aria-label="My Twitter" target="_blank" rel="noreferrer"
+    href="https://twitter.com/SalehiYasmin">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#twitter"></use>
+      </svg>
+    </div>
+  </a>
+  
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
+  <p>
+    &copy; 2020 Designed & Developed by
+    <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
+      Long Do
+    </a>
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-158757509-2", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>

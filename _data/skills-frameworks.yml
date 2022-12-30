@@ -1,0 +1,36 @@
+# > name: Name of your framework
+# > weight: Describes how good you know the framework - values from 1 up to 5
+#
+# Example of a framework
+# - name: Framework
+#   weight: 5
+
+- name: PyTorch
+  weight: 5
+
+- name: PyTorch Geometric
+  weight: 5
+
+- name: NumPy
+  weight: 5
+
+- name: Scikit-learn
+  weight: 5
+
+- name: TensorFlow
+  weight: 4
+
+- name: TensorBoard
+  weight: 4
+
+- name: Pandas
+  weight: 4
+
+- name: NetworkX
+  weight: 3
+
+- name: NLTK
+  weight: 3
+
+- name: SeqIO
+  weight: 3
