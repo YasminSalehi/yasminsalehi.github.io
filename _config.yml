@@ -35,8 +35,8 @@ show_aboutme_card: true
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
 about_me_description:
-  Hello and welcome to my personal website! My name is Yasmin, and I am currently working as a machine learning researcher at McGill University under the supervision of Prof. Giannacopoulos. <br /><br /> My current research involves developing novel physics-informed machine learning algorithms.
-  Generally, my interests lie in graph representation learning, natural language processing, physics-informed machine learning (ML), and application of ML in healthcare. I have recently published my work as the first author at Neural Information Processing Systems (NeurIPS2022) and Empirical Methods in Natural Language Processing (EMNLP2020) conferences.
+  Hello and welcome to my personal website! My name is Yasmin, and I am currently working as a machine learning (ML) researcher at McGill University under the supervision of Prof. Giannacopoulos. <br /><br /> My current research involves developing novel physics-informed ML algorithms.
+  Generally, my interests lie in graph representation learning, natural language processing (NLP), physics-informed ML, and application of ML in healthcare. I have recently published my work as the first author at Neural Information Processing Systems (NeurIPS2022) and Empirical Methods in Natural Language Processing (EMNLP2020) conferences.
   <br /> <br /> I have previously earned a bachelor&#39;s and master&#39;s degrees in Electrical and Computer Engineering alongside two minors in Biomedical and Software Engineering from McGill University. <br /><br /> <br /> <br />
 # SKILLS SECTION
 # show_skills_card:
